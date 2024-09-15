@@ -1,10 +1,7 @@
-#Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.
+#Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: (72.7*altura) - 58
 
-#Leve em conta que o salário mínimo atual de 2024 é de 1.412R$ e por hora o valor de R$6.42
+altura = float(input('Informe o altura do usuário: '))
 
-sálrio_hora = float(input('Quanto você ganhar por hora? R$ '))
-horas_trabalhadas = int(input('Quantas horas trabalhadas no mês? '))
+peso_ideial = (72.7 * altura) - 58
 
-salario = (sálrio_hora * horas_trabalhadas) / 2
-
-print(salario)
+print(peso_ideial)
